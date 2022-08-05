@@ -1,0 +1,8 @@
+.new-order-modal-message {
+  white-space: pre-line;
+}
+
+.new-order-modal-controls {
+  display: flex;
+  margin-top: 24px;
+}

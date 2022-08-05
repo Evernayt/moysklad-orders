@@ -1,0 +1,17 @@
+.tooltip {
+  position: absolute;
+  z-index: 99999999;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  border-radius: 8px;
+  background-color: var(--card-background);
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  visibility: hidden;
+}
+
+.tooltip-showing {
+  visibility: visible;
+}
